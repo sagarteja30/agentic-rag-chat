@@ -1,0 +1,46 @@
+# Core FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Environment and configuration
+python-dotenv==1.0.0
+
+# Database and API clients
+supabase==2.1.0
+groq==0.8.0
+httpx>=0.24.0,<0.25.0
+
+# ML and NLP dependencies  
+sentence-transformers==2.7.0
+transformers==4.36.0
+torch>=2.0.0
+numpy==1.24.3
+huggingface_hub>=0.17.0,<0.25.0
+
+# Text processing and document parsing
+langchain==0.1.0
+pdfminer.six==20231228
+python-docx==1.1.0
+pandas==2.1.4
+
+# Utilities and monitoring
+loguru==0.7.2
+tqdm==4.66.1
+psutil==5.9.6
+
+# Streamlit frontend
+streamlit==1.28.2
+plotly==5.17.0
+
+# API and validation
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Production optimizations
+gunicorn==21.2.0
+prometheus-client==0.19.0
+
+# Optional development dependencies
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
